@@ -1,6 +1,6 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:tutorial-video="Unity.Tutorials.Core.Editor" editor-extension-mode="False">
     <Style src="project://database/Packages/com.unity.learn.iet-framework/Editor/UI/CustomControl/VideoPlayer/VideoPlayerElement.uss?fileID=7433441132597879392&amp;guid=d157d5015887d4b8599ce98eaced5686&amp;type=3#VideoPlayerElement" />
-    <VideoPlayerElement>
+    <tutorial-video:VideoPlayerElement>
         <ui:VisualElement name="videoPlayer" class="video-content">
             <ui:VisualElement name="PlayBar" class="video-control-bar" style="scale: 1 1;">
                 <ui:VisualElement name="PlayTrack" class="video-play-track">
@@ -43,5 +43,5 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:Label name="ErrorLabel" text="This is a test" />
-    </VideoPlayerElement>
+    </tutorial-video:VideoPlayerElement>
 </ui:UXML>
