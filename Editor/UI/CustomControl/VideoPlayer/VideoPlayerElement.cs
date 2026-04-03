@@ -7,9 +7,9 @@ using UnityEngine.Video;
 /// <summary>
 /// A VisualElement that is a VideoPlayer with a roll up play bar with play, speed and audio controls
 /// </summary>
-[UxmlElement]
 namespace Unity.Tutorials.Core.Editor
 {
+[UxmlElement]
 public partial class VideoPlayerElement : VisualElement
 {
 
